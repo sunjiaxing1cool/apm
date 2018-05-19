@@ -1,0 +1,10 @@
+com\apm\entity\LocalAuth.class
+com\apm\entity\Area.class
+com\apm\entity\ShopCategory.class
+com\apm\entity\WeChatAuth.class
+com\apm\entity\ProductCategory.class
+com\apm\entity\PersonInfo.class
+com\apm\entity\ProductImg.class
+com\apm\entity\HeadLine.class
+com\apm\entity\Product.class
+com\apm\entity\Shop.class

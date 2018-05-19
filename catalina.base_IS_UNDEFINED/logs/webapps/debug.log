@@ -1,0 +1,6 @@
+2018-05-18 17:21:33:116[main] DEBUG com.apm.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr, phone,shop_img,priority,create_time,last_edit_time,enable_status,advice) VALUES (?,?,?, ?,?,?,?,?,?, ?,?,?,?) 
+2018-05-18 17:21:33:165[main] DEBUG com.apm.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺(String), desc(String), addr(String), test(String), test(String), null, 2018-05-18 17:21:32.695(Timestamp), null, 1(Integer), 审核中(String)
+2018-05-18 17:21:33:169[main] DEBUG com.apm.dao.ShopDao.insertShop - <==    Updates: 1
+2018-05-18 18:01:20:335[main] DEBUG com.apm.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_desc=?, shop_addr=?, last_edit_time=? where shop_id=? 
+2018-05-18 18:01:20:366[main] DEBUG com.apm.dao.ShopDao.updateShop - ==> Parameters: desc after update(String), addr after update(String), 2018-05-18 18:01:19.849(Timestamp), 1(Long)
+2018-05-18 18:01:20:376[main] DEBUG com.apm.dao.ShopDao.updateShop - <==    Updates: 1
