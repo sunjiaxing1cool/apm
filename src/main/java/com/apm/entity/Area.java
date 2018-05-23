@@ -16,11 +16,11 @@ public class Area {
 
 	private Date lastEditTime;
 
-	public Integer getareaId() {
+	public Integer getAreaId() {
 		return areaId;
 	}
 
-	public void setareaId(Integer areaId) {
+	public void setAreaId(Integer areaId) {
 		this.areaId = areaId;
 	}
 

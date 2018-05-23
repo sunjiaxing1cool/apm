@@ -1,0 +1,2 @@
+2018-05-20 14:15:28:576[main] ERROR com.apm.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2018-05-20 14:20:16:064[main] ERROR com.apm.util.ImageUtil - javax.imageio.IIOException: Can't read input file!

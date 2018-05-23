@@ -26,7 +26,7 @@ public class ShopDaoTest extends BaseTest{
 		Area area=new Area();
 		ShopCategory shopCategory=new ShopCategory();
 		owner.setUserId(1L);
-		area.setareaId(2);
+		area.setAreaId(2);
 		shopCategory.setShopCategoryId(1L);
 		shop.setOwner(owner);
 		shop.setShopCategory(shopCategory);
@@ -43,6 +43,7 @@ public class ShopDaoTest extends BaseTest{
 		assertEquals(1,effectedNum);
 	}
 	@Test
+	@Ignore
 	public void testUpdateShop(){
 		Shop shop =new Shop();
 		shop.setShopId(1L);
@@ -51,5 +52,16 @@ public class ShopDaoTest extends BaseTest{
 		shop.setLastEditTime(new Date());
 		int effectedNum=shopDao.updateShop(shop);
 		assertEquals(1,effectedNum);
+	}
+	@Test
+	public void testQueryByShopId(){
+		long shopId=1;
+		Shop shop=shopDao.queryByShopId(shopId);
+		System.out.println("areaId"+shop.getArea().getAreaId());
+		System.out.println("areaName"+shop.getArea().getAreaName());
+		System.out.println("shopCategoryId"+shop.getShopCategory().getShopCategoryId());
+		System.out.println("shopCategoryName"+shop.getShopCategory().getShopCategoryName());
+		System.out.println("owerId"+shop.getOwner().getUserId());
+		System.out.println("owerName"+shop.getOwner().getName());
 	}
 }
